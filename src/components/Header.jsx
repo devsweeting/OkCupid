@@ -8,13 +8,18 @@ const Title = styled.h1`
   color: palevioletred;
 `;
 
+const Wrapper = styled.section`
+  padding: 4em;
+  background: #fec5e2;
+`;
+
 function Header(){
   return (
-    <div>
+    <Wrapper>
       <Title>Okcupid</Title>
       <h3>Have an account?</h3>
       <Link to="/">Home</Link> | <Link to="/signin">Sign In</Link>
-    </div>
+    </Wrapper>
   );
 }
 
