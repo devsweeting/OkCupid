@@ -12,12 +12,13 @@ const Wrapper = styled.section`
   height: 50em;
   margin-top: -200px;
 
-  animation: colorchange 5s;
-  -webkit-animation: colorchange 50s;
+  animation: colorchange 50s;
+  -webkit-animation: colorchange 100s;
   @keyframes colorchange
   {
     0%   {background: #fec5e2;}
     50%  {background: #23d7ef;}
+    75%  {background: tomato;}
     100%  {background: #21bc66;}
   }
 
@@ -25,6 +26,7 @@ const Wrapper = styled.section`
   {
     0%   {background: #fec5e2;}
     50%  {background: #23d7ef;}
+    75%  {background: tomato;}
     100%  {background: #21bc66;}
   }
 `;

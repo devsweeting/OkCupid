@@ -1,10 +1,10 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 
 function Footer(){
   return (
     <div>
-       <h1>Footer Component!!</h1>
+       <a href="https://www.okcupid.com/mobile">Apps</a>
     </div>
   );
 }

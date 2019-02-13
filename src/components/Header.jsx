@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import okcupid from '../assets/images/okcupid.svg';
 
+
+
 const Wrapper = styled.section`
   padding: 2em;
   max-width: 80%;
