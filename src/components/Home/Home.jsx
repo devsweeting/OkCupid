@@ -9,7 +9,7 @@ const Wrapper = styled.section`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  height: 75em;
+  height: 50em;
   margin-top: -200px;
 
   animation: colorchange 5s;
