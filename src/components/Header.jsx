@@ -1,12 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;
+import okcupid from '../assets/images/okcupid.svg';
 
 const Wrapper = styled.section`
   padding: 4em;
@@ -14,6 +9,8 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: space-between;
 `;
+
+
 
 const TestButton = styled(Link)`
   font-size: 1em;
@@ -25,13 +22,19 @@ const TestButton = styled(Link)`
   color: palevioletred;
 `;
 
+  const Image = styled.img`
+    height: 100px;
+    width: 100px;
+
+  `;
+
 function Header(){
   return (
     <Wrapper>
-      <Title>Okcupid</Title>
+      <Image src={okcupid}/>
         <div>
-      <h3>Have an account?</h3>
-      <TestButton to="/">Home</TestButton>  <TestButton to="/signin">Sign In</TestButton>
+        <h3>Have an account?</h3>
+        <TestButton to="/">Home</TestButton>  <TestButton to="/signin">Sign In</TestButton>
       </div>
     </Wrapper>
   );
