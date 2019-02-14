@@ -14,6 +14,7 @@ import BodyText from './BodyText';
     top: 300px;
     height: 650px;
     transform: rotate(-2.75deg);
+    
   `;
 
   // const BodyText = styled.`

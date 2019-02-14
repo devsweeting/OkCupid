@@ -33,6 +33,8 @@ const Wrapper = styled.section`
 
 
 
+
+
 function Home(){
   return (
     <div>
