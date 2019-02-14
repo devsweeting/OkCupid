@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.section`
   background-color: #b9eeef;
-  height: 50em;
+  box-sizing: border-box;
 
 
 `;
@@ -18,10 +18,7 @@ const Form = styled.div`
 
 `;
 
-const InnerForm = styled.div`
-  width: 50px;
-  height: 50px;
-`
+
 
 
 function SignIn(){
@@ -29,9 +26,9 @@ function SignIn(){
     <Wrapper>
       <div>
        <Form>
-         <InnerForm>
+
            <h1>Sign in</h1>
-         </InnerForm>
+
        </Form>
       </div>
     </Wrapper>

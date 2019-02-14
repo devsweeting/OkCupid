@@ -22,7 +22,6 @@ const TestButton = styled(Link)`
   border-radius: 3px;
   text-decoration: none;
   color: black;
-
 `;
 
   const Image = styled.img`
